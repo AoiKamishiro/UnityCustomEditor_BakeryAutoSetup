@@ -1,16 +1,15 @@
-# UnityCustomEditor_DynamicBoneCopy
-<H2><a href="https://github.com/AoiKamishiro/UnityCustomEditor_DynamicBoneCopy/releases">最新版のダウンロードはこちら</a></H2>
-<H3>※更新の際は以前のバージョンを削除してからインポートしてください。</H3>
-<H3>前提アセット</H3>
-<ul>
-<li>DynamicBone</li>
-</ul>
-<H3>起動方法</H3>
-<a>Tools/Kamishiro/DynamicBoneCopy から起動できます。</a>
-<H3>プログラムについて</H3>
-<a>DynamicBone、DynamicBoneColliderをコピーできます。DynamicBoneのColliderやExclusionの設定をコピー先に合わせて調整することができます。</a>
-<a>また、コピー元とコピー先に同名のゲームオブジェクトがあった場合、コピー先のゲームオブジェクト候補に自動的に挙げられます。</a>
-<H3>連絡先</H3>
-<a>Twitter : @aoi3192</a>
-<br/>
-<a>VRC : 神城 葵[Aoi_JPN]</a>
+# UnityCustomEditor_BakeryAutoSetup
+## [最新版のダウンロードはこちら](https://github.com/AoiKamishiro/UnityCustomEditor_BakeryAutoSetup/releases)
+### ※更新の際は以前のバージョンを削除してからインポートしてください。
+### 前提アセット
+* Bakery Lightmapper
+### 起動方法
+Tools/Kamishiro/BakeryAutoSetup から起動できます。
+### プログラムについて
+UnityのBake用のライトに、自動的にBakeryコンポーネントを付与します。BakeryDirectLight, BakeryPointLight, BakeryLightMeshを自動的に判別して付与し、シーン内にSkylightが存在しない場合は作成します。  
+また、BakeryコンポーネントをLightコンポーネントの値と一致するように変更を行い、Bakeryコンポーネントを付与したオブジェクトのタグを EditorOnly に変更します。
+### 連絡先
+[Twitter: @aoi3192](https://twitter.com/aoi3192)  
+[Booth: 神城工業](https://kamishirolab.booth.pm/)  
+[Vket: 神城工業](https://www.v-market.work/ec/shops/1810/detail/)  
+[VRC: 神城アオイ](https://www.vrchat.com/home/user/usr_19514816-2cf8-43cc-a046-9e2d87d15af7)
